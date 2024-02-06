@@ -4,12 +4,10 @@ package arrays;
 public class ReverseArray {
 
     public static void main(String[] args) {
-        int[] array = {1, 2, 3, 4, 5}; // Example array
-
+        int[] array = {1, 2, 3, 4, 5};
         System.out.println("Original array:");
         printArray(array);
 
-        // Reverse the array
         int start = 0;
         int end = array.length - 1;
 
@@ -25,7 +23,7 @@ public class ReverseArray {
         printArray(array);
     }
 
-    // Function to print the array
+
     public static void printArray(int[] array) {
         for (int num : array) {
             System.out.print(num + " ");

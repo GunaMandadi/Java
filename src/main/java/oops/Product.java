@@ -26,18 +26,15 @@ public class Product {
         return discountedPrice;
     }
 
-    // Main method to demonstrate usage
     public static void main(String[] args) {
         // Create an instance of Product
         Product product = new Product();
 
-        // Set the price for single quantity using the setter method
         product.setPrice(10.0);
 
-        // Retrieve and print the price for single quantity using the getter method
         System.out.println("Price for single quantity: " + product.getPrice());
 
-        // Calculate and print the price based on a specific quantity using the overloaded getPrice method
+
         int quantity = 15;
         System.out.println("Price for " + quantity + " quantity: " + product.getPrice(quantity));
     }

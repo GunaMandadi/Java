@@ -7,7 +7,6 @@ public class Person {
     private String ssn;
     private String phoneNumber;
 
-    // Constructor
     public Person(double height, double weight, String ssn, String phoneNumber) {
         this.height = height;
         this.weight = weight;
@@ -15,7 +14,7 @@ public class Person {
         this.phoneNumber = phoneNumber;
     }
 
-    // Getters and setters
+
     public double getHeight() {
         return height;
     }
@@ -48,7 +47,6 @@ public class Person {
         this.phoneNumber = phoneNumber;
     }
 
-    // Override equals method to match persons based on SSN
     @Override
     public boolean equals(Object obj) {
         if (this == obj)

@@ -9,7 +9,6 @@ public class StringRotationChecker {
             return false;
         }
 
-        // Concatenate str1 with itself, if str2 is substring of it, then str2 is rotation of str1
         String concatenated = str1 + str1;
         return concatenated.contains(str2);
     }

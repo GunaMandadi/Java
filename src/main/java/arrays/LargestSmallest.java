@@ -4,7 +4,7 @@ package arrays;
 public class LargestSmallest {
 
     public static void main(String[] args) {
-        int[] array = {10, 5, 7, 20, 15, 3}; // Example array
+        int[] array = {10, 5, 7, 20, 15, 3};
 
         int largest = array[0];
         int smallest = array[0];

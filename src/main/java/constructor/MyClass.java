@@ -1,9 +1,8 @@
 package constructor;
 public class MyClass {
-    // Static variable
+
     private static int staticVariable = 0;
 
-    // Static method to return the static variable
     public static int getStaticVariable() {
 
         return staticVariable;

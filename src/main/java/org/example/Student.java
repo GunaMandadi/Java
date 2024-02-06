@@ -1,10 +1,9 @@
 package org.example;
-
 public class Student {
-    private String name;
+    private final String name;
 
-    public Student(String name) {
-        this.name = name;
+    public Student() {
+        this.name = "name";
     }
 
     public String getName() {
@@ -12,7 +11,10 @@ public class Student {
     }
 
     public static void main(String[] args) {
-        Student s = new Student("CIS");
+        Student s= new Student();
         System.out.println(s.getName());
+
     }
-}
+
+    }
+

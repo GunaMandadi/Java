@@ -1,19 +1,15 @@
 package constructor;
 
 public class FinalClass {
-    public static void main(String[] args) {
+    final int finalVariable = 10;
 
-        FinalClass finalObj = new FinalClass();
-
-
-        finalObj.finalMethod();
+    void finalMethod() {
+        System.out.println("Final method invoked");
     }
 
-    final void finalMethod() {
-
-        int finalVariable = 10;
-        System.out.println("Final method called. Value of finalVariable: " + finalVariable);
+    public static void main(String[] args) {
+        FinalClass finalObject = new FinalClass();
+        System.out.println("Final variable value: " + finalObject.finalVariable);
+        finalObject.finalMethod();
     }
 }
-
-

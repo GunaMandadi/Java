@@ -28,4 +28,3 @@ public class FibonacciSeries {
         scanner.close();
     }
 }
-

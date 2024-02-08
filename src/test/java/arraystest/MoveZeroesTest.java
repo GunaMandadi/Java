@@ -1,4 +1,5 @@
-package arrays;
+package arraystest;
+import arrays.MoveZeroes;
 import org.junit.Test;
 import static org.junit.Assert.assertArrayEquals;
 

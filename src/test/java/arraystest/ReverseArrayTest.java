@@ -1,8 +1,10 @@
-package arrays;
+package arraystest;
 
 
 import static org.junit.Assert.assertArrayEquals;
-        import org.junit.Test;
+
+import arrays.ReverseArray;
+import org.junit.Test;
 
 public class ReverseArrayTest {
 

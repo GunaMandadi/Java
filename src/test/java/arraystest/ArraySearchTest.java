@@ -1,6 +1,7 @@
-package arrays;
+package arraystest;
 
 
+import arrays.ArraySearch;
 import org.junit.Test;
         import static org.junit.Assert.*;
 
